@@ -1,0 +1,2 @@
+- 使用前先安装 pip3 install selenium
+- 再下载chrome版本 对应的chromedriver 放到相对应的目录

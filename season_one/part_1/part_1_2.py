@@ -9,7 +9,7 @@ def get_one():
     发起get请求
     :return:
     """
-    r = requests.get('http://httpbin.org/')
+    r = requests.get('')
     print(r.text)
 
 
@@ -18,8 +18,8 @@ def get_two():
     发起get请求.追加参数
     :return:
     """
-    data = dict(name='kamihati', age=99)
-    r = requests.get('http://httpbin.org/get', params=data)
+    data = dict(name='', age=0)
+    r = requests.get('', params=data)
     print(r.text)
     print(r.json())
     print(type(r.json()))
@@ -49,7 +49,7 @@ def get_file_to_save():
     url = 'https://www.crummy.com/software/BeautifulSoup/bs4/doc/_images/6.1.jpg'
 
     r = requests.get(url)
-    with open("f://x.jpg", 'wb') as f:
+    with open("D://x.jpg", 'wb') as f:
         f.write(r.content)
     print("success")
 
@@ -59,6 +59,6 @@ def post_one():
     发起post请求
     :return:
     """
-    data = {"name": 'kamihati', 'age': 99}
-    r = requests.post('http://httpbin.org/post', data=data)
+    data = {"name": '', 'age': 0}
+    r = requests.post('', data=data)
     print(r.text)

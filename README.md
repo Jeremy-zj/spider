@@ -1,17 +1,14 @@
 ﻿# py_spider
 
 #### 项目介绍
-用于讲解python3实现网络爬虫
+- 用于讲解python3实现网络爬虫
 
 #### 软件架构
 
-第一阶段 网页爬虫   对应文件夹 season_one
-
-第二阶段 APP爬虫   对应文件夹 season_two
-
-第三阶段 爬虫框架的应用 对应文件夹 season_three
-
-第四阶段 分布式爬虫 对应文件夹 season_four
+- 第一阶段 网页爬虫   对应文件夹 season_one
+- 第二阶段 APP爬虫   对应文件夹 season_two
+- 第三阶段 爬虫框架的应用 对应文件夹 season_three
+- 第四阶段 智能化爬虫 对应文件夹 season_four
 
 
 #### 安装教程
@@ -57,9 +54,6 @@
 - MongoDB
 - Redis
 
-
-
-#### 使用说明
 
 
 

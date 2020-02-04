@@ -9,7 +9,7 @@ def upload_file():
     :return:
     """
     files = {"file": open("../../static_files/image.png", 'rb')}
-    r = requests.post("http://httpbin.org/post", files=files)
+    r = requests.post("", files=files)
     print(r.text)
 
 
@@ -59,9 +59,9 @@ def hold_session():
     """
     s = requests.session()
     # 设置cookie
-    s.get('http://httpbin.org/cookies/set/number/123456789')
+    s.get('')
     # 读取cookie
-    r = s.get('http://httpbin.org/cookies')
+    r = s.get('')
     print(r.text)
 
 
@@ -206,8 +206,8 @@ def prepared_request():
     :return:
     """
     from requests import Request, Session
-    url = 'http://httpbin.org/post'
-    data = {"name": 'kamihati'}
+    url = ''
+    data = {"name": ''}
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36"
     }
